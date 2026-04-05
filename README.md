@@ -5,6 +5,52 @@ Mega Collection of PowerShell Scripts
 
 **[Download](https://github.com/fleschutz/PowerShell/releases) | [PowerShell FAQs](docs/FAQs.md) | [PowerShell Cheat Sheet](docs/cheat-sheet.md) | [PowerShell Documentation](https://docs.microsoft.com/en-us/powershell)**
 
+---
+
+Windows Troubleshooting Tool
+----------------------------
+
+A **portable, single-file PowerShell GUI application** for System Administrators. Run diagnostics, monitor system health, and troubleshoot Windows issues - all from one tool.
+
+### Quick Start
+
+```powershell
+# Run normally
+.\WindowsTroubleshooter.ps1
+
+# Run as Administrator (recommended for full functionality)
+Right-click > Run with PowerShell (as Administrator)
+```
+
+### Features
+
+| Feature | Description |
+|---------|-------------|
+| **Quick Health Dashboard** | One-click system health check - CPU, RAM, Disk, Network status |
+| **Category Browser** | Scripts organized into System Health, Network, Services, Software, Storage, Security |
+| **Search & Filter** | Find scripts instantly with real-time search (Ctrl+F) |
+| **Background Execution** | Scripts run in background, results stream to output panel |
+| **Export Results** | Save reports as TXT or HTML with timestamps |
+| **Admin Mode Toggle** | Self-elevation support for admin-required operations |
+
+### Keyboard Shortcuts
+
+| Shortcut | Action |
+|----------|--------|
+| `Ctrl+H` | Run quick health check |
+| `Ctrl+F` | Focus search box |
+| `Ctrl+R` | Run selected script |
+| `Ctrl+E` | Export results |
+| `Ctrl+C` | Copy output |
+
+### Requirements
+
+- Windows 10/11
+- PowerShell 5.1+ (built-in)
+- No external dependencies
+
+---
+
 🔊 Scripts for Audio & Voice 
 -----------------------------
 
